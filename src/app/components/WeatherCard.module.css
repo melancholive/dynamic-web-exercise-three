@@ -3,3 +3,22 @@
     border-color: white;
     padding: 25px;
 }
+
+.weatherStatisticsWrapper{
+    background-color: rgba(67, 80, 121);
+    display: flex;
+}
+
+.weatherStatisticsWrapper div{
+    width: auto;
+}
+
+.weatherCardImage {
+    height: auto;
+    width: 120px;
+}
+
+.weatherCardImage svg {
+    height: auto;
+    width: 100%;
+}
