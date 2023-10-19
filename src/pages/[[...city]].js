@@ -32,7 +32,7 @@ export default function Home({weatherData}){
         <>
             <Header/>
             <main>
-                <h1>Weather App</h1>
+                <h1>WEATHER APP</h1>
                 <WeatherCard
                     cityName={weatherData.name}
                     weatherType={weatherData.weather[0].main}

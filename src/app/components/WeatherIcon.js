@@ -16,6 +16,8 @@ const WeatherIcon = ({weatherType}) => {
             return <FontAwesomeIcon icon={faSun}/>;
         case 'Clouds':
         case 'Haze':
+        case 'Fog':
+        case 'Mist':
             return <FontAwesomeIcon icon={faCloud}/>;
         default:
             return <div></div>;
